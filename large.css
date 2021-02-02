@@ -1,0 +1,86 @@
+/*for desktop*/
+
+body{margin:0;}
+.navbar{background-color:darkblue;
+padding:2% 2%;text-align:center;
+}
+
+.dotted-hr{border:dotted 6px white;margin:0 auto;border-bottom:none;width:300px;}
+h1{font-family:arial;color:white;text-shadow:2px 3px yellow;font-size:2.5rem;}
+/*navbar start*/
+.navbar-menu{display:flex;flex-direction:row;justify-content:flex-end;}
+.navbar-heading{margin-top:6px;}
+.navbar-menu{margin-top:20px;}
+.navbar-menu a{font-size:1.8rem;background-color:transparent;padding:10px 12px;margin:10px 15px;}
+.navbar-menu a:hover{background-color:blue;color:gray;}
+.col-1{width:8.33%;}
+.col-2{width:9.09%;}
+.col-3{width:10%;}
+.col-4{width:11.11%;}
+.col-5{width:12.5%;}
+.col-6{width:14.28%;}
+.col-7{width:16.66%;}
+.col-8{width:20%;}
+.col-9{width:25%;}
+.col-10{width:33.33%;}
+.col-11{width:50%;}
+.col-12{width:100%;}
+
+[class*="col-"]{float:left;padding:10px;}
+.navbar:after{clear:both;display:table;content:'';}
+/*navbar end*/
+/*profile start*/
+.profile{}
+.top-weather-icon{right:280px;transition:width,height;}
+.top-weather-icon img{width:120px;height:120px;}
+.top-weather-icon img:hover{width:140px;height:140px;}
+.profile-desc h1{font-family:satify;font-size:3rem;text-align:center;}
+.profile-desc p{color:red;font-size:2rem;text-align:justify;padding:10px 160px;}
+
+.bottom-weather-icon{left:280px;top:480px;transition:width 4s,}
+.bottom-weather-icon img{width:120px;height:120px;}
+.bottom-weather-icon img:hover{width:140px;height:140px;}
+
+
+/*profile end*/
+
+/*about me start*/
+.about-me{background-color:#39a4ac;padding:1% 6%;color:white;text-align:center;}
+.about-me h2{text-align:center;}
+.about-me-desc p{font-size:1.2rem;}
+.about-me-desc a{font-size:1.8rem;}
+
+.about-me-image img{margin-top:40px;width:400px;height:400px;border-radius:50%;border:1px solid yellow;}
+.button{color:#fff;border:none;border-radius:10px;padding:10px;font-size:1.8rem;
+cursor:pointer;background-color:#052d2f;margin:10px;}
+.about-me::after{clear:both;content:'';display:table;}
+[class*="col-"]{float:left;padding:10px;}
+/*about me end*/
+
+.work-experience{border:2px solid gray;background-color:#a39e9e;padding:6px 10px;
+                      width:340px;border-radius:6px;margin:10px 14px;}
+
+.education{border:2px solid gray;background-color:#a39e9e;padding:6px 10px;
+                     width:400px;border-radius:6px;margin:10px 14px;}
+					 
+.skill{border:2px solid gray;background-color:#a39e9e;padding:6px 10px;
+                     width:340px;border-radius:6px;margin:10px 14px;}
+
+
+
+.achievement{text-align:center;padding-right:20px;}		
+
+.contract button{border:none;border-radius:12px;background-color:#052d2f;color:white;
+                  cursor:pointer;padding:15px;margin:10px;width:160px;}			 
+.contract-icon{margin-top:0px;margin:60px;}	
+.contract-icon img{border-radius:60px;width:100px;
+height:100px;padding:10px 8px;cursor:pointer;}
+
+
+.footer-menu a{display:inline;}
+.footer-menu a:hover{color:gray;background-color:red;}
+.footer-desc{margin-top:-16px;padding:0;}
+
+
+
+.footer::after{content:'';display:table;clear:both;}		  
